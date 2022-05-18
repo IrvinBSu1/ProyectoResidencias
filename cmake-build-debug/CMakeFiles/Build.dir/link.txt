@@ -1,0 +1,1 @@
+C:\PROGRA~1\SDCC\bin\sdcc.exe CMakeFiles/Build.dir/src/main.c.rel -o Build.ihx --use-non-free -mpic16 -p18f45k50 

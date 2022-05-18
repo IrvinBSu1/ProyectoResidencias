@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CMake-SDCC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="sdcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Build">
+				<Option output="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Build.ihx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="sdcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 Build"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Build/fast">
+				<Option output="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Build.ihx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="sdcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 Build/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/include/delay.h">
+			<Option target="Build"/>
+		</Unit>
+		<Unit filename="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/include/pic18f45k50.h">
+			<Option target="Build"/>
+		</Unit>
+		<Unit filename="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/src/main.c">
+			<Option target="Build"/>
+		</Unit>
+		<Unit filename="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

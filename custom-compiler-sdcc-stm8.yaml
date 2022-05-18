@@ -1,0 +1,20 @@
+
+compilers:
+
+  - description: SDCC 4.1.0 STM8 Medium Memory model
+    match-args: "-mpic16"
+    match-compiler-exe: "(.*/)?sdcc(\\.exe)?"
+    code-insight-target-name: avr
+    include-dirs: "${project-path}/include"
+    defines-text: "
+#define __interrupt(n)
+#define __at(n)
+#define __naked
+#define __critical
+#define __trap
+#define __sfr
+#define __wparam
+#define _MATH_REENTRANT
+#define __data
+#define __code
+"

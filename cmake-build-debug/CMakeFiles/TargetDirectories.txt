@@ -1,0 +1,3 @@
+C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/CMakeFiles/Build.dir
+C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/CMakeFiles/rebuild_cache.dir

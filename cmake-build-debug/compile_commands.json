@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\SDCC\\bin\\sdcc.exe   --use-non-free -mpic16 -p18f45k50 -o CMakeFiles\\Build.dir\\src\\main.c.rel -c C:\\Users\\famas\\Downloads\\Residencias\\ProyectoResidencias\\ProyectoResidencias\\src\\main.c",
+  "file": "C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/src/main.c"
+}
+]

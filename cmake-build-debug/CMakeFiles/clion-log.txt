@@ -1,0 +1,8 @@
+"C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\famas\Downloads\Residencias\ProyectoResidencias\ProyectoResidencias -B C:\Users\famas\Downloads\Residencias\ProyectoResidencias\ProyectoResidencias\cmake-build-debug
+-- The C compiler identification is SDCC
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/SDCC/bin/sdcc.exe - skipped
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug

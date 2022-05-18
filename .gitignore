@@ -1,0 +1,12 @@
+
+src/build/firmware.lst
+
+src/build/firmware.map
+
+src/main.asm
+
+src/main.lst
+
+src/main.o
+
+src/build/firmware.cod

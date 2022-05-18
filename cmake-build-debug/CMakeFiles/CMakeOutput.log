@@ -1,0 +1,45 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/SDCC/bin/sdcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.asm"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.ihx"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.lk"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.lst"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.map"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.mem"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.rel"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.rst"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.sym"
+
+The C compiler identification is SDCC, found in "C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.asm"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_895fa/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_895fa.dir\build.make CMakeFiles/cmTC_895fa.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_895fa.dir/CMakeCCompilerABI.c.rel
+C:\PROGRA~1\SDCC\bin\sdcc.exe    -o CMakeFiles\cmTC_895fa.dir\CMakeCCompilerABI.c.rel -c "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\share\cmake-3.22\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_895fa.ihx
+"C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_895fa.dir\link.txt --verbose=1
+C:\PROGRA~1\SDCC\bin\sdcc.exe CMakeFiles/cmTC_895fa.dir/CMakeCCompilerABI.c.rel -o cmTC_895fa.ihx 
+mingw32-make[1]: Leaving directory 'C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
