@@ -27,4 +27,4 @@ set(CMAKE_C_STANDARD 99)
 add_compile_options(--use-non-free -mpic16 -p18f45k50)
 add_link_options(--use-non-free -mpic16 -p18f45k50)
 
-add_executable(Build src/main.c include/pic18f45k50.h include/delay.h)
+add_executable(Build src/main.c include/pic18f45k50.h include/delay.h src/support.h)

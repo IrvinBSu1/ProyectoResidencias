@@ -6,6 +6,8 @@ ifeq ($(OS),Windows_NT)
 	ASM = "C:\Program Files (x86)\gputils\bin\gpasm.exe"
 	LD = "C:\Program Files (x86)\gputils\bin\gplink.exe"
 	LDPARAMS = -I"C:\Program Files\SDCC\bin\..\lib\pic16" -I"C:\Program Files\SDCC\bin\..\non-free\lib\pic16"   -w -r -m -s linker/18f45k50.lkr -o build/firmware.hex "main.o"  "crt0iz.o" "libdev18f45k50.lib" "libsdcc.lib" "libc18f.lib"
+	DEL = del
+	DELPARAMS =
 else
 	UNAME_S := $(shell uname -s)
 	ifeq ($(UNAME_S),Linux)
@@ -26,6 +28,8 @@ else
 		CC = sdcc
 		LD = gplink
 		LDPARAMS = -I/opt/homebrew/bin/../share/sdcc/lib/pic16 -I/opt/homebrew/Cellar/sdcc/4.2.0/share/sdcc/lib/pic16 -I/opt/homebrew/bin/../share/sdcc/non-free/lib/pic16 -I/opt/homebrew/Cellar/sdcc/4.2.0/share/sdcc/non-free/lib/pic16 -w -r -m -s linker/18f45k50.lkr -o build/firmware.hex main.o crt0iz.o libdev18f45k50.lib libsdcc.lib libc18f.lib
+		DEL = rm
+		DELPARAMS = -f
 	endif
 endif
 
@@ -44,6 +48,6 @@ link:
 	$(LD) $(LDPARAMS)
 
 clean:
-	rm -f $(SRC:.c=.cod) $(SRC:.c=.o) $(SRC:.c=.lst) $(SRC:.c=.asm) build/firmware.cod build/firmware.map build/firmware.lst
+	${DEL} ${DELPARAMS} $(SRC:.c=.o) && ${DEL} ${DELPARAMS} $(SRC:.c=.lst) && ${DEL} ${DELPARAMS} $(SRC:.c=.asm) && cd build && ${DEL} ${DELPARAMS} firmware.cod && ${DEL} ${DELPARAMS} firmware.map && ${DEL} ${DELPARAMS} firmware.lst
 
 .PHONY: all clean

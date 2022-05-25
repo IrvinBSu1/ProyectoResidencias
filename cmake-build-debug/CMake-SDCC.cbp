@@ -75,6 +75,9 @@
 		<Unit filename="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/src/main.c">
 			<Option target="Build"/>
 		</Unit>
+		<Unit filename="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/src/support.h">
+			<Option target="Build"/>
+		</Unit>
 		<Unit filename="C:/Users/famas/Downloads/Residencias/ProyectoResidencias/ProyectoResidencias/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

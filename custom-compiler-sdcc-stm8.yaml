@@ -9,6 +9,7 @@ compilers:
     defines-text: "
 #define __interrupt(n)
 #define __at(n)
+#define at
 #define __naked
 #define __critical
 #define __trap
@@ -16,5 +17,5 @@ compilers:
 #define __wparam
 #define _MATH_REENTRANT
 #define __data
-#define __code
+#define code
 "
