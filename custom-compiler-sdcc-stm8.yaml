@@ -8,6 +8,7 @@ compilers:
     include-dirs: "${project-path}/include"
     defines-text: "
 #define __interrupt(n)
+#define __interrupt
 #define __at(n)
 #define at
 #define __naked
@@ -18,4 +19,5 @@ compilers:
 #define _MATH_REENTRANT
 #define __data
 #define code
+#define __code
 "
